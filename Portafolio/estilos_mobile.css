@@ -16,32 +16,8 @@
     padding: 5px;
   }
   
-  /* cabecera */
-  #cabecera-home {
-    height: 30vh;
-    padding: 10px;
-  }
-  
-  #cabecera .cabecera-banner,
-  #cabecera-home .cabecera-banner{
-    height: 50%;
-    width: 80%;
-  }
-  
-  #cabecera h1,
-  #cabecera-home h1 {
-    text-align: center;
-    font-size: 30px;
-    line-height: 1em;
-    padding: 10px;
-  }
-  
   /* Portfolio */
-  #portfolio .portfolio-nav {
-    display: none;
-  }
-  
-  .box {
+  .apartado {
     float: none;
     width: 100%;
     padding:10px;
@@ -52,7 +28,7 @@
     height: 100%;
   }
   
-  #contacto .box-contact {
+  #contacto .apartado-contacto {
     float: none;
     width: 100%;
     padding-bottom: 10%;
@@ -69,21 +45,35 @@
     height: 600px;
   }
   
-  /* Proyecto */
-  .box-portfolio {
-    float: none;
-    width: 100%;
+  /* Botones */
+  .button {
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding: 15px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #004482;
+    border: none;
+    border-radius: 40px;
+  }
+
+  .button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
   }
   
-  
   /* Footer */
-  #main-footer {
+  #pie-pagina {
     text-align: center;
 
   }
   
-  #main-footer p,
-  #main-footer ul,
-  #main-footer ul li {
+  #pie-pagina p,
+  #pie-pagina ul,
+  #pie-pagina ul li {
     float: none;
   }
