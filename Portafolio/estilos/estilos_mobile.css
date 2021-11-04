@@ -22,11 +22,19 @@
     height: 600px;
   }
 
-    /* cabeceras */
-    #cabecera-proyecto img{
-      width: 90%;
-      height: 70%;
-    }
+  /*carousel*/
+  .carousel-item {
+    height: 22rem;
+  }
+  .carousel-item > img {
+    height: 22rem;
+  }
+
+  /* cabeceras */
+  #cabecera-proyecto img{
+    width: 90%;
+    height: 70%;
+  }
   
   /* Botones */
   .button {
