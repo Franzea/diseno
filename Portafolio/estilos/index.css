@@ -1,5 +1,5 @@
 body{
-    background-image: url(fondoindex.jpg);
+    background-image: url('../fotos/fondoindex.jpg');
     background-position: center;
     background-image: fixed;
 }

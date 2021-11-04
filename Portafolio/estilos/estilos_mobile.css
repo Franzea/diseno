@@ -1,0 +1,47 @@
+  /* Portfolio */
+  .apartado {
+    float: none;
+    width: 100%;
+    padding:10px;
+  }
+  
+  /* Contacto */
+  #contacto {
+    height: 100%;
+  }
+  
+  #contacto .apartado-contacto {
+    float: none;
+    width: 100%;
+    padding-bottom: 10%;
+  }
+
+  #contacto #mapa{
+    padding: 0 3%;
+    width: 100%;
+    height: 600px;
+  }
+
+    /* cabeceras */
+    #cabecera-proyecto img{
+      width: 90%;
+      height: 70%;
+    }
+  
+  /* Botones */
+  .button {
+    padding: 15px 25px;
+    font-size: 15px;
+  }
+  
+  /* Footer */
+  #pie-pagina {
+    text-align: center;
+    height: 170px;
+  }
+  
+  #pie-pagina p,
+  #pie-pagina ul,
+  #pie-pagina ul li {
+    float: none;
+  }

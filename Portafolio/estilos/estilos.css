@@ -4,21 +4,6 @@
     box-sizing: border-box;
   }
   
-  .container {
-    margin: auto;
-    max-width: 1100px;
-    overflow: auto;
-    padding: 0 20px;
-  }
-  
-  .btn {
-    display: inline-block;  
-    font-size: 1.125em;
-    padding: 13px 20px;
-    border: none;
-    cursor: pointer;
-  }
-
   #logo{
     margin-top: -15px;
     margin-right: 20px;
@@ -29,38 +14,46 @@
     width: 100px;
   }
   
-  /* cabecera */
-  #cabecera-p1 {
-    background-image: url("fondoindex.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 50vh;
-    padding: 50px;
+  /* cabeceras */
+  #cabecera-proyecto{
+    margin-top: 30px;
+    text-align: center;
   }
 
-  #cabecera-home {
-    background-image: url("fondoindex.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 50vh;
-    padding: 50px;
+  #cabecera-proyecto img{
+    width: 50%;
+    height: 30%;
   }
   
   /* Portafolio */
+  .proyectos {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 20px 20px;
+  }
+
   .apartado {
     float: left;
-    width: 33.3%;
+    width: 33%;
     padding:10px;
   }
   
   .apartado img {
     width: 100%;
   }
+
+  .apartado-portfolio{
+    padding-top: 25px;
+  }
+
+  .apartado-portfolio ul{
+    list-style: none;
+  }
   
   /* Contacto */
   #contacto {
+    padding-top: 30px;
     height: 300px;
     align-content: center;
   }
@@ -78,17 +71,6 @@
   #contacto .apartado-contacto p {
     line-height: .8em;
   }
-  
-  #contacto .features-contact .box-form{
-    float: left;
-    width: 50%;
-    padding: 60px 10px 20px 10px;
-  }
-  
-  #contacto .features-contact .box-form iframe{
-    width: 100%;
-    height: 400px;
-  }
 
   #contacto #mapa{
     margin-top: 20px;
@@ -101,6 +83,7 @@
   /*Botones*/
   .button {
     display: inline-block;
+    margin-top: 15px;
     padding: 15px 25px;
     font-size: 24px;
     cursor: pointer;
@@ -119,11 +102,13 @@
   
   /* Footer */
   #pie-pagina {
+    background-color: #004482;
     height: 80px;
     padding-top: 20px;
   }
   
   #pie-pagina p {
+    color: #ffffff;
     float: left;
   }
   
@@ -137,7 +122,8 @@
   }
   
   #pie-pagina ul li i {
-    color: #004482;
+    padding: 10px;
+    color: #ffffff;
   }
   
   #main-footer ul li a {
