@@ -1,0 +1,66 @@
+/**/
+.fotocaru{
+
+    width: 100vw;
+    height: 100vh;
+}
+
+/**/
+video{
+
+    width: 100vw;
+    height: 100vh;
+}
+
+/*Pie de pagina*/
+#pie-pagina {
+    background-color: #696969;
+    height: 80px;
+    padding-top: 20px;
+}
+  
+#pie-pagina p {
+    color: #ffffff;
+    float: left;
+}
+  
+#pie-pagina ul {
+    float: right;
+    list-style: none;
+}
+
+#pie-pagina ul li {
+    float: left;
+}
+  
+#pie-pagina ul li i {
+    padding: 10px;
+    color: #ffffff;
+}
+  
+#main-footer ul li a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+/*Cambio de tamaño para de dispositivos móviles*/
+@media only screen and (max-width: 1000px) {
+    
+    .fotocaru{
+        width: 100vw;
+        height: 40vh;
+    }
+
+    /*Pie de pagina*/
+    #pie-pagina {
+        text-align: center;
+        height: 170px;
+    }
+  
+    #pie-pagina p,
+    #pie-pagina ul,
+    #pie-pagina ul li {
+        float: none;
+    }
+}
