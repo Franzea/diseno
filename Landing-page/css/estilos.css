@@ -2,15 +2,40 @@ body{
     margin: 0;
 }
 
-/**/
-video{
-    width: 100%;
-    height: 100%;
+
+/*Cabecera*/
+.cabecera{
+    background-color: #494949;
+    padding: 25px;
+    padding-bottom: 14px;
+    text-align: justify;
 }
 
-.definition{
-    background-color: aqua;
+.cabecera p{
+    color: white;
+    font-family: Verdana;
 }
+
+.cabecera img{
+    width: 40%;
+    height: 40%;
+    position: relative;
+}
+
+
+/*Definición*/
+.definition{
+    background-color: #8b8b8b;
+    padding: 25px;
+    padding-bottom: 14px;
+    text-align: justify;
+}
+
+.definition p{
+    color: white;
+    font-family: Verdana;
+}
+
 
 /*Pie de pagina*/
 #pie-pagina {
@@ -47,11 +72,7 @@ video{
 
 /*Cambio de tamaño para de dispositivos móviles*/
 @media only screen and (max-width: 1000px) {
-    
-    .fotocaru{
-        width: 100vw;
-        height: 40vh;
-    }
+
 
     /*Pie de pagina*/
     #pie-pagina {
