@@ -5,21 +5,31 @@ body{
 
 /*Cabecera*/
 .cabecera{
-    background-color: #494949;
-    padding: 25px;
-    padding-bottom: 14px;
+    margin: 0;
+    background-image: url("../fotos/C-_xampp_htdocs_diseno_Landing-page_fotos_32019.gif");
+    height: 100vh;
+    background-repeat: no-repeat;
     text-align: justify;
 }
 
 .cabecera p{
+    padding: 25px;
     color: white;
     font-family: Verdana;
 }
 
-.cabecera img{
-    width: 40%;
-    height: 40%;
-    position: relative;
+.cabecera button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #EFF8F9;
+    background-color: #A11554;
+    border: none;
+    border-radius: 15px;
 }
 
 
@@ -27,13 +37,17 @@ body{
 .definition{
     background-color: #8b8b8b;
     padding: 25px;
-    padding-bottom: 14px;
+    padding-bottom: 15px;
     text-align: justify;
 }
 
 .definition p{
     color: white;
     font-family: Verdana;
+}
+
+.cabecera input{
+    padding: 2px;
 }
 
 
@@ -70,10 +84,21 @@ body{
     text-align: center;
 }
 
+@media only screen and (max-height: 800px) {
+    
+    /*Cabecera*/
+    .cabecera{
+        margin: 0;
+        background-image: url("../fotos/32019.gif");
+        height: 100vh;
+        background-repeat: no-repeat;
+        text-align: justify;
+    }
+}
+
 /*Cambio de tamaño para de dispositivos móviles*/
 @media only screen and (max-width: 1000px) {
-
-
+    
     /*Pie de pagina*/
     #pie-pagina {
         text-align: center;
