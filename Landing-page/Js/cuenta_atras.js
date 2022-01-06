@@ -1,8 +1,10 @@
-let numhoras = parseInt(Math.random() * (24 - 1) + 1); 
+//definimos un numero aleatorio entre 24 y 4 para declarar un número de horas restantes
+let numhoras = parseInt(Math.random() * (24 - 4) + 4); 
 
 let horas = numhoras;
 let minutos = 0;
 let segundos = 0;
+
 cargarSegundo();
 
 //Definimos y ejecutamos los segundos

@@ -1,6 +1,6 @@
 .cont-temporizador{
     display: flex;
-    justify-content: left;   
+    justify-content: center;   
     margin-top: 50px; 
 }
   
@@ -16,7 +16,7 @@
     justify-content: center;
     align-items: center;
     background-color: #A11554;
-    box-shadow: 0px 0px 6px 2px #8b8b8b inset;
+    box-shadow: 0px 0px 6px 2px #413E3F;
     color: #D0D0D3;
     font-size: 40px;
     font-weight: bold;
@@ -29,5 +29,14 @@
 .cont-temporizador .bloque p{
     font-size: 11px;
     font-weight: bold;
-    color: #D0D0D3;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .cont-temporizador .bloque div{
+        font-size: 35px;
+        width: 90px;
+        height: 65px;
+    } 
 }

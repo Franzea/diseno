@@ -41,6 +41,17 @@ body{
     border-radius: 40px;
 }
 
+button:hover{
+    background-color: #413E3F;
+    box-shadow: 0 12px 16px 0 #413E3F,0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#bots{
+    width: 380px;
+    margin-top: 17%;
+    margin-left: 39%;
+}
+
 #bot1{
     margin-left: 22%;
     margin-top: 24%;
@@ -53,33 +64,18 @@ body{
     margin-right: 10px;
 }
 
-#bots{
-    width: 380px;
-    margin-top: 17%;
-    margin-left: 39%;
-}
-
-button:hover{
-    background-color: #413E3F;
-    box-shadow: 0 12px 16px 0 #413E3F,0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
 
 /*Definición*/
 .definition{
-    background-color: #8b8b8b;
+    background-color: #413E3F;
     padding: 25px;
     padding-bottom: 15px;
     text-align: justify;
 }
 
 .definition p{
-    color: white;
+    color: #FFFFFF;
     font-family: Verdana;
-}
-
-.cabecera input{
-    padding: 2px;
 }
 
 
@@ -90,19 +86,34 @@ button:hover{
     padding-bottom: 15px;
 }
 
-.Info2 p{
-    color: white;
-    font-family: Verdana;
-}
-
 .Info2 h3{
-    color: white;
+    color: #FFFFFF;
+    text-align: center;
     font-family: Verdana;
 }
 
-.Info2 img{
-    width: 30%;
-    height: 30%;
+.Info2 p{
+    color: #FFFFFF;
+    margin-top: 15px;
+    text-align: center;
+    font-family: Verdana;
+}
+
+.Info2 button{
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 820px;
+    padding: 10px 50px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #D0D0D3;
+    background-color: #A11554;
+    border: none;
+    border-radius: 40px;
 }
 
 
@@ -163,6 +174,10 @@ button:hover{
         margin-top: 10%;
         margin-left: 38%;
     }
+
+    .Info2 button{
+        margin-left: 43%;
+    }
 }
 
 /*Cambio de tamaño para de dispositivos móviles*/
@@ -172,6 +187,10 @@ button:hover{
     #bots{
         margin-top: 30%;
         margin-left: 7%;
+    }
+
+    .Info2 button{
+        margin-left: 23%;
     }
 
     /*Pie de pagina*/
