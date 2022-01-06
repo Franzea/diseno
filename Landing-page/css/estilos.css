@@ -73,9 +73,18 @@ button:hover{
     text-align: justify;
 }
 
+.definition h3{
+    color: #D0D0D3;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
 .definition p{
     color: #FFFFFF;
     font-family: Verdana;
+    text-align: center;
+    margin-left: 170px;
+    width: 1500px;
 }
 
 
@@ -116,6 +125,36 @@ button:hover{
     border-radius: 40px;
 }
 
+
+/**/
+.col-sm-4{
+    color: #FFFFFF;
+    background-image: url("../fotos/32019.jpg");
+}
+
+.col-sm-4 h3{
+    text-align: center;
+    margin: 40px;
+}
+
+.col-sm-4 p{
+    text-align: center;
+    margin: 40px;
+}
+
+.col-sm-4 img{
+    margin-left: 23%;
+    width: 350px;
+    height: 240px;
+}
+
+#fotojuego{
+    margin-top: 10px;
+    margin-left: 16%;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 220px;
+}
 
 /*Pie de pagina*/
 #pie-pagina {
@@ -175,8 +214,27 @@ button:hover{
         margin-left: 38%;
     }
 
+    /**/
+    .definition p{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    /**/
     .Info2 button{
         margin-left: 43%;
+    }
+
+    .col-sm-4 img{
+        margin-left: 15%;
+        width: 350px;
+        height: 240px;
+    }
+
+    #fotojuego{
+        margin-top: 10px;
+        margin-left: 9%;
+        margin-bottom: 10px;
     }
 }
 
@@ -191,6 +249,24 @@ button:hover{
 
     .Info2 button{
         margin-left: 23%;
+    }
+
+    /**/
+    .definition p{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    /**/
+    .col-sm-4 img{
+        margin-left: 9%;
+        width: 350px;
+        height: 240px;
+    }
+
+    #fotojuego{
+        width: 370px;
+        height: 190px;
     }
 
     /*Pie de pagina*/
