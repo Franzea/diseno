@@ -3,6 +3,30 @@ body{
 }
 
 
+/**/
+.button{
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 820px;
+    padding: 10px 50px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #D0D0D3;
+    background-color: #A11554;
+    border: none;
+    border-radius: 40px;
+}
+
+.button:hover{
+    background-color: #413E3F;
+    box-shadow: 0 12px 16px 0 #413E3F,0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
 /*Cabecera*/
 .cabecera{
     margin: 0;
@@ -27,24 +51,6 @@ body{
     font-size: 20px;
 }
 
-.cabecera button{
-    display: inline-block;
-    padding: 10px 50px;
-    font-size: 24px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #D0D0D3;
-    background-color: #A11554;
-    border: none;
-    border-radius: 40px;
-}
-
-button:hover{
-    background-color: #413E3F;
-    box-shadow: 0 12px 16px 0 #413E3F,0 17px 50px 0 rgba(0,0,0,0.19);
-}
 
 #bots{
     width: 380px;
@@ -74,7 +80,7 @@ button:hover{
 }
 
 .definition h3{
-    color: #D0D0D3;
+    color: #FFFFFF;
     text-align: center;
     margin-bottom: 25px;
 }
@@ -108,28 +114,11 @@ button:hover{
     font-family: Verdana;
 }
 
-.Info2 button{
-    display: inline-block;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 820px;
-    padding: 10px 50px;
-    font-size: 24px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #D0D0D3;
-    background-color: #A11554;
-    border: none;
-    border-radius: 40px;
-}
-
 
 /**/
 .col-sm-4{
     color: #FFFFFF;
-    background-image: url("../fotos/32019.jpg");
+    background-color: #413E3F;
 }
 
 .col-sm-4 h3{
@@ -149,12 +138,26 @@ button:hover{
 }
 
 #fotojuego{
+    padding-top: 30px;
     margin-top: 10px;
     margin-left: 16%;
     margin-bottom: 10px;
     width: 400px;
     height: 220px;
 }
+
+
+/**/
+.compra{
+    background-color: #413E3F;
+}
+
+.compra button{
+    margin-top: 20px;
+    margin-left: 43%;
+    margin-bottom: 20px;
+}
+
 
 /*Pie de pagina*/
 #pie-pagina {
@@ -267,6 +270,10 @@ button:hover{
     #fotojuego{
         width: 370px;
         height: 190px;
+    }
+
+    .compra button{
+        margin-left: 25%;
     }
 
     /*Pie de pagina*/
