@@ -154,7 +154,7 @@ body{
 
 .compra button{
     margin-top: 20px;
-    margin-left: 43%;
+    margin-left: 850px;
     margin-bottom: 20px;
 }
 
@@ -221,6 +221,13 @@ body{
     .definition p{
         margin-left: 0;
         width: 100%;
+    }
+
+    /**/
+    .compra button{
+        margin-top: 20px;
+        margin-left: 43%;
+        margin-bottom: 20px;
     }
 
     /**/
