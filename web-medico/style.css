@@ -1,18 +1,22 @@
 body{
     margin: 0;
+    background-image: url("foto2.jpg");
 }
 
 header{
     width: 100%;
-    background-color: blue;
+    background-color: #0c3559;
 }
 
-header p{
-    margin: 0;
+header img{
+    margin-left: 48%;
+    width: 70px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 section{
-    background-color: blanchedalmond;
+    margin: 0;
 }
 
 section p{
