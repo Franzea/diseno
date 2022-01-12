@@ -16,10 +16,16 @@ header img{
 }
 
 section{
-    margin: 0;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: white;
+    border: 10px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;  
 }
 
 section p{
+    background-color: gray;
     margin: 0;
 }
 
@@ -42,4 +48,17 @@ section p{
  
 #padding_box{
      background-clip: padding-box;
+}
+
+/*Cambio de tamaño para de dispositivos móviles*/
+@media only screen and (max-width: 1000px) {
+    
+    header img{
+        margin-left: 42%;
+    }
+
+    section{
+        margin: 30px;
+    }
+    
 }
