@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>web-médico - F.Z.</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="jquery-3.6.0.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            
+            $("#Mostar").click(function (e) {
+            
+                e.preventDefault();
+                $("#capaflotante").css({
+                    display: 'block'
+                })
+            })
+
+            $("#Ocultar").click(function (e) {
+            
+                e.preventDefault();
+                $("#capaflotante").css({
+                    display: 'none'
+                })
+            })
+        })
+
+    </script>
+
+</head>
+<body>
+
+    <!--<a href="#" id="Mostar">Mostar capa flotante</a>  <a href="#" id="Ocultar">Ocultar capa flotante</a>-->
+    
+    <header>
+
+        <p>asrg</p>
+
+    </header>
+
+    <section>
+
+        <p>dbern</p>
+
+    </section>
+
+    <div class="capaflotante" id="capaflotante">
+
+        <div class="cfmedio" id="padding_box">
+
+            <p>Capa flotante</p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, in facere nisi, dolorem sequi nihil cum omnis a voluptatem ullam sapiente. Nobis cumque enim excepturi facere porro ratione doloremque architecto.</p>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
