@@ -18,7 +18,7 @@
             $("#Mostar").click(function (e) {
             
                 e.preventDefault();
-                $("#capaflotante").css({
+                $("#mensaje").css({
                     display: 'block'
                 })
             })
@@ -26,7 +26,7 @@
             $("#Ocultar").click(function (e) {
             
                 e.preventDefault();
-                $("#capaflotante").css({
+                $("#mensaje").css({
                     display: 'none'
                 })
             })
@@ -43,37 +43,30 @@
 
     </header>
 
-    <section>
+        
+    <section class="mensaje" id="mensaje">
+
+        <h1>Consultas médicas por videollamada</h1>
+
+        <img src="foto3.png" alt="foto3">
+
+        <a href="#" id="Ocultar">Cerrar</a> 
+
+        <button>Pedir Cita</button>
+
+    </section>
+
+    <section class="contenido">
+        
+        <h1>En cualquier momento y lugar</h1>
 
         <p>En la actualidad las consultas médicas por videollamada, en algunas especialidades médicas, han dejado de ser una opción y se han convertido en una necesidad. Nuestra empresa está preparada para afrontar esta realidad.</p>
         <p>Desde nuestra agenda podrás marcar las citas como presenciales o remotas (por videoconferencia).  Para las citas remotas se creará automáticamente una sala de videoconferencia y se notificará al paciente de la fecha/hora de la cita así como del enlace que debe usar para unirse a la videoconferencia en el momento acordado. El profesional, por su parte, podrá iniciar la llamada con un solo click desde la cita en su agenda.</p>
-        <p>Nuestra aplicación web también permite que los pacientes atendidos por videoconferencia puedan pagar cómodamente desde su casa con sus tarjetas de crédito. Este pago, además, se puede realizar por adelantado por parte del paciente al solicitar su visita desde nuestro portal de cita online.</p>
+        <p id="ultimo">Nuestra aplicación web también permite que los pacientes atendidos por videoconferencia puedan pagar cómodamente desde su casa con sus tarjetas de crédito. Este pago, además, se puede realizar por adelantado por parte del paciente al solicitar su visita desde nuestro portal de cita online.</p>
+
+        <a href="#" id="Mostar">Consultas Online</a>
 
     </section>
-
-    <section>
-
-        
-
-    </section>
-
-    <a href="#" id="Mostar">Consultas Online</a>
-
-    <div class="capaflotante" id="capaflotante">
-
-        <div class="cfmedio" id="padding_box">
-
-            <p>Capa flotante</p>
-
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, in facere nisi, dolorem sequi nihil cum omnis a voluptatem ullam sapiente. Nobis cumque enim excepturi facere porro ratione doloremque architecto.</p>
-
-            <img src="" alt="foto1">
-
-            <a href="#" id="Ocultar">Cerrar</a>
-
-        </div>
-
-    </div>
 
 </body>
 </html>
