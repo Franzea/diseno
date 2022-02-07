@@ -14,32 +14,37 @@
 
     <form>
 
-        <h1>Registro de usuario</h1>
-        
-        <spam class="letras">Nombre:</spam>
-        <input type="text" name="Nombre" placeholder="Nombre..."><br>
+        <h2>Registro de usuario</h2>
 
-        <spam class="letras">Apelidos:</spam>
-        <input type="text" name="Apelidos" placeholder="Apelidos..."><br>
+        <div class="contenido">
 
-        <spam class="letras">Email:</spam>
-        <input type="text" name="Email" placeholder="Email..."><br>
+            <spam class="letras">Nombre</spam><br>
+            <input type="text" name="Nombre" placeholder="Introduzca su nombre..."><br>
 
-        <spam class="letras">Cantraseña:</spam>
-        <input type="text" name="Cantraseña" placeholder="Cantraseña..."><br>
+            <spam class="letras">Apelidos</spam><br>
+            <input type="text" name="Apelidos" placeholder="Introduzca sus apelidos..."><br>
 
-        <spam class="letras">Confirmar contraseña:</spam>
-        <input type="text" name="confiCantraseña" placeholder="Confirmar contraseña..."><br>
+            <spam class="letras">Email</spam><br>
+            <p>(Opcional)</p>
+            <input type="text" name="Email" placeholder="Introduzca su email..."><br>
+
+            <spam class="letras">Cantraseña</spam><br>
+            <p>Tiene que tener mínimo 8 caracteres</p>
+            <input type="text" name="Cantraseña" placeholder="Defina su contraseña..."><br>
+
+            <spam class="letras">Confirmar contraseña</spam><br>
+            <input type="text" name="confiCantraseña" placeholder="Confirme su contraseña..."><br>
+
+        </div>
 
         <div class="botones">    
 
+            <button id="aceptar">Aceptar</button>
+
             <button>Cancelar</button> 
-            
-            <button>Aceptar</button>
     
         </div>
 
     </form>
 
 </body>
-</html>
